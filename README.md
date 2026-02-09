@@ -22,7 +22,7 @@ Here is a description of the tasks I attempted in this assignment:
    from start to finish. The robot however continues to map the maze. The code takes this path and optimizes it by pruning the dead ends from the path using a stack.
    The robot iterates through the path list, adding it to both a stack and a set. if any given coordinates are in the set, this means they are also in the stack, which then means
    that coordinates in between those two are essentially a loop. The robot will remove all coordinates between the first instance and second instance of the same coordinate and repeat this process for the entire path.
-   The output will be a path from start to finish with all dead ends removed. This approach is possible here because in dynamic wall maze, it is given that there is always just one path out of the maze. A set is used to ensure O(1)
+   The output will be a path from start to finish with all dead ends removed. This approach is possible here because in dynamic wall maze, it is given that there is always just one path out of the maze. A set is used to ensure $O(1)$
    complexity for coordinate lookup. Rather than iterating through the whole stack every time, the robot can just check the set.
 
 
