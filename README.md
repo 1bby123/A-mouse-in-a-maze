@@ -1,6 +1,8 @@
 # A-mouse-in-a-maze
 **Github Repo for Robotics Assessment 1**
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/--SRiHePCRU/0.jpg)](https://www.youtube.com/watch?v=--SRiHePCRU)
+
 Here is a description of the tasks I attempted in this assignment:
 
 
