@@ -1,7 +1,15 @@
 # A-mouse-in-a-maze
 **Github Repo for Robotics Assessment 1**
+---
+### Submission
+I have provided both the VEX VR file as well as the Python code itself in a separate file. If you are unable to open the VEX file in the online IDE, you can just paste the provided code
+into a new IDE session and it should run without issues.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/--SRiHePCRU/0.jpg)](https://www.youtube.com/watch?v=--SRiHePCRU)
+Below is an unlisted youtube link to my commentary video.
+
+[![Robotics Video](https://img.youtube.com/vi/--SRiHePCRU/0.jpg)](https://www.youtube.com/watch?v=--SRiHePCRU)
+
+---
 
 Here is a description of the tasks I attempted in this assignment:
 
