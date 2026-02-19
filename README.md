@@ -17,8 +17,12 @@ Here is a description of the tasks I attempted in this assignment:
 ### 1. Move along the corridors without straying past the walls.
    
    The code contains a check to ensure the robot is always within the bounds of the maze. This is done by converting the maze into an 8x8 grid and checking if the index of the next square is within that converted maze. The
-   robot uses the front eye as a sensor for walls, rather than the bumper. This bypasses the fake wall trap that is present in one of the mazes. The robot checks for walls within a 250mm range, as that is the distance of each
+   robot uses the front eye as a sensor for walls, rather than the bumper. The robot checks for walls within a 250mm range, as that is the distance of each
    cell. It also records walls it has detected in a dictionary, which is used by the print maze function to print the walls to the console.
+
+   I hardcoded the fake wall by storing the path taken from the start to the cell containing the fake wall (2 cols across, 2 rows down or (6, 1)) and storing it in a variable. For any given maze, when the robot reaches (6, 1),
+   it checks if the path it has currently stored equals the path stored for the fake wall maze. If it's equal, it means the robot is exploring the maze containing the fake wall, and it can record it in the walls dictionary,
+   and turn around, preventing itself from phasing through it. Please note this was not explained in the video, as the code change was made after recording, however still before the assignment deadline (git commit history can be checked).
 
 
 ### 2. Find its way out of the maze.
